@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+.comp {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-items: stretch;
+}
+.c1 {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.c1 .c1text {
+  margin-bottom: 3px;
+  width: 70%;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.c1 .c1btns {
+  width: 60%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+.c1 .c1btn:focus {
+  background-color: #2475ac;
+}
+.c1 .c1btn {
+  background-color: #3498db;
+  color: white;
+  border: 1px solid;
+  margin-left: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  flex-grow: 1;
+}
+.c2 {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.c2 .c2text {
+  margin-bottom: 3px;
+  width: 70%;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.c2 .c2btns {
+  width: 40%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+.c2 .c2btn {
+  background-color: #3498db;
+  color: white;
+  border: 1px solid;
+  margin-left: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  flex-grow: 1;
+}
+.c2 .c2btn:focus {
+  background-color: #2475ac;
+}
+.c2 .data {
+  border-radius: 5px;
+  border: 1px solid;
+}
